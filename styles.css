@@ -1,0 +1,236 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.small-container {
+    padding: 10px;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.menu-botons {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.menu-botons.active {
+    color: #ffcc00;
+}
+
+.carrito-botons {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+}
+
+.contador {
+    background-color: #ffcc00;
+    color: #333;
+    border-radius: 50%;
+    padding: 2px 6px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+}
+
+/* Main */
+.header-content {
+    text-align: center;
+    padding: 40px 0;
+}
+
+h2.titulo-container {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.producto {
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.producto-informacion {
+    margin-top: 15px;
+}
+
+.titulo {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.precio {
+    font-size: 16px;
+    color: #ffcc00;
+}
+
+.agregar {
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.agregar:hover {
+    background-color: #e5b800;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.link {
+    margin-bottom: 20px;
+}
+
+.link h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.redesociales-2 img {
+    width: 30px;
+    margin: 0 5px;
+}
+
+/* Carrito */
+.carrito-container {
+    text-align: center;
+}
+
+.productos-carrito {
+    margin-top: 40px;
+}
+
+.producto-carro {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.producto-carro img {
+    width: 80px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.carro-titulo, .carro-cantidad, .carro-precio, .carro-subtotal {
+    flex: 1;
+}
+
+.eliminar-producto {
+    background: url('https://img.icons8.com/ios/50/000000/delete-sign.png') no-repeat center center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .productos-container {
+        justify-content: center;
+    }
+
+    .producto {
+        width: 100%;
+    }
+}
+/* Agrega estilos para el botón de vaciar carrito */
+.vaciar-carrito {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+}
+/* Agrega estos estilos al final de tu archivo styles.css */
+
+.carrito-usos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px; /* Ajusta según sea necesario */
+}
+
+/* Estilo específico para el botón Vaciar Carrito */
+
+
+/* Estilo específico para el botón Realizar la compra */
+.carrito-comprar {
+    background-color: #4caf50; /* Puedes ajustar el color según tu preferencia */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+

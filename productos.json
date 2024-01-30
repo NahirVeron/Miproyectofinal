@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "nombre": "Arnes Mujer Maravilla",
+      "precio": 10000,
+      "imagen": "arnes.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Taza perro salchicha",
+      "precio": 6000,
+      "imagen": "taza.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Calcomania perro salchicha",
+      "precio": 5000,
+      "imagen": "calcomania.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Llaveros perro salchicha",
+      "precio": 20000,
+      "imagen": "llaveros.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Mochilas",
+      "precio": 20000,
+      "imagen": "mochilas.jpg"
+    }
+  ]
+  
